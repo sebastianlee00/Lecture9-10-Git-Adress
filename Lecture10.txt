@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My Blog Page</title>
+    <style>
+        #header{
+            background-color: deepskyblue;
+            width: 100%;
+            height: 50px;
+         }
+        #nav{
+            width: 30%;
+            background-color:lightgreen;
+            height: 100px;
+            float: left;
+        }
+        #content{
+            width: 70%;
+            background-color: yellow;
+            float: right;
+            height: 100px;
+        }
+        #footer{
+            background-color: gray;
+            width: 100%;
+            height: 50px;
+            clear: both;
+        }
+        ul.a {
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"> My Blog Page</div>
+
+    <div id="nav">Links</div>
+    <ul class="a">
+        <li>W3C</li>
+        <li>MOZILLA</li>
+        <li>HTML Dogs</li>
+    </ul>
+    <div id="nav">Links</div>
+
+    <div id="content">Semantic Tag</div>
+    <div id="content"><p>시멘틱 요소(Semantic Element)들은 브라우저에게 요소나 의미나 목적을 명확하게 알려주는 요소이다</p></div>
+    <div id="content">Div와 Span</div>
+    <div id="content"><p>div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. Span 요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p></div>
+
+    <div id="footer">Copyright (c) 2013 Hong</div>
+</body>
+</html>
